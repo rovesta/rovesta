@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial scale=1.0" charset="UTF-8">
+    <link rel="stylesheet" href="dewstyle.css">
+    
+</head>
+<body>
+
+    <div class="header"><h1>&#128167;</h1></div>
+
+    <div class="topnav" id="menu">
+        <a href="index.html" title="사진">Photo</a> &nbsp;
+        <a href="painting.html" title="그림"><b>Painting</b></a> &nbsp;
+        <a href="#" title="?">P</a> &nbsp;
+    </div>
+       
+
+    <div class="row">
+        <div class="column">
+           <img src="img/P01.png" onclick="onClick(this)">
+           <img src="img/P02.png" onclick="onClick(this)">
+           <img src="img/P03.png" onclick="onClick(this)">
+        </div>
+
+        <div class="column">
+
+        </div>
+
+
+        <div class="column">
+    
+        </div>
+
+        <div class="column">
+   
+        </div>
+    </div>
+
+    
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <div class="close">&times;</div>
+        <img class="modal-content" id="photo">
+        <div id="caption"></div>
+    </div>
+
+    
+    <footer>
+        <div class="bttmnav" id="menu">
+            <a href="index.html" title="사진">Photo</a> &nbsp;
+            <a href="painting.html" title="그림"><b>Painting</b></a> &nbsp;
+            <a href="#" title="?">P</a> &nbsp;
+        </div>
+    </footer>
+
+<script src="menu.js"></script>
+<script src="modal.js"></script>
+
+
+</body>
+</html>
